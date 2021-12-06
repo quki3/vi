@@ -1,10 +1,18 @@
 # neovim
+*instalacion*
+```bash
+sudo apt install neovim`va apedir credenciales y yes`
+nvim `vemos si instalo y la version`
+```
 ## activar archivo config/nvim/init.vim
 ```bash
 :source ~/.config/nvim/init.vim
 ```
+
 ## editar el archivo con vin
 ```bash
+Esc `nos saca de INSERT y nos deja escribir comandos`
+i `nos pone en modo insert`
 % //? el % en vim hace refencia al archivo
 :%s/lorem/LOREM //? sustituye todos los lorem por LOREM
 v //? selecciono
@@ -47,9 +55,40 @@ Ctrl r //? rehase los cambios
 ```
 ## la consola de vim
 ```bash
+Esc `nos saca de INSERT y nos deja escribir comandos `
+
+:/palabraquequeremosbuscar `nos busca una palabra`
+:n `va a la siguiente ocurrencia`
+:Shif n `vuelve a  la previa ocurrencia`
+
+:Ctrl r `volvemos adelante`
+
+:d `cortamos si ya antes seleccionamos en modo visual`
+:dd `cortar`
+:dnumerodelineasd `corta el numero de lineas que quieras`
+
+:gg `vamos al principio de nuestro archivo`
+:G `vamos al final de nuestro archivo`
+
+:u `volvemos atras`
+
+:q `salimos sin guardar`
+:q! `si estamos seguros que queremos salir sin guardar`
+:w `guarda los cambios`
+:wq `salimos y guardamos`
+:x `salimos y guardamos`
 :w newnamearchivo //? guarda y crea el archivo 
+
+:p `pegar`
 :pwd //?muestra la ruta
+
 :e nombredelarchivoalquequeremosir  //? abre el archivo que pusimos si no existe lo crea
+
+:v `modo visual nos permite seleccionar`
+
+:set nu `le agrega numeros a nvim`
 :terminal //? abre la terminal
+:yy `copia`
+:ynumerodelineasy `copia en numero de lineas que quieras`
 Ctrl\n //?
 ```
