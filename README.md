@@ -37,8 +37,8 @@ D  //? borra desde donde estamos hasta el final de la linea
 x //? borra la letra seleccionada 
 X //? borra la letra a la isquierda
 
-uv //? modo visual podemos selecionar las palabras
-UV //? modo visual seleccionamos mucho mas
+v //? modo visual podemos selecionar las palabras
+V //? modo visual seleccionamos mucho mas
 y //? copiamos 
 p //? pega en la siguiente linea
 P //? paga en la anterior linea
