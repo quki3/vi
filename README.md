@@ -12,6 +12,33 @@ nvim `vemos si instalo y la version`
 
 ## editar el archivo con vi
 ```bash
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+  o =? open a new line and insert text 
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
 Esc `nos saca de INSERT y nos deja escribir comandos`
 i `nos pone en modo insert`
 % //? el % en vim hace refencia al archivo
