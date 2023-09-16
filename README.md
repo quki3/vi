@@ -1,4 +1,5 @@
-# neovim
+# variation
+- nvim
 *instalacion*
 ```bash
 sudo apt install neovim`va apedir credenciales y yes`
@@ -9,7 +10,7 @@ nvim `vemos si instalo y la version`
 :source ~/.config/nvim/init.vim
 ```
 
-## editar el archivo con vin
+## editar el archivo con vi
 ```bash
 Esc `nos saca de INSERT y nos deja escribir comandos`
 i `nos pone en modo insert`
